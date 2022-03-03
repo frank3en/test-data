@@ -35,7 +35,7 @@ jobs:
           git add -A
           git diff HEAD --exit-code
           if ($LASTEXITCODE -eq 0) {
-            Write-Host "No changes to commit!"
+            echo "No changes, end..."
           } else {
             git config --global user.name "github-actions-[bot]"
             git config --global user.email "frank3en@gamil.com"
