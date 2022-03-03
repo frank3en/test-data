@@ -29,9 +29,11 @@ jobs:
           node-version: 14
       - name: Translate
         run: |
+
           npm run translate
       - name: commit and push
         run: |
+
           if [[ `git status --porcelain` ]]; then
           # Changes
           git add -A
@@ -42,4 +44,5 @@ jobs:
           git push origin main
           else
           # No changes
+          echo "no changes"
           fi
