@@ -44,5 +44,5 @@ jobs:
           git push origin main
           else
           # No changes
-          echo "no changes"
+          echo "😁 no changes"
           fi
