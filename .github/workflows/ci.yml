@@ -32,14 +32,14 @@ jobs:
           npm run translate
       - name: commit and push
         run: |
+          if [[ `git status --porcelain` ]]; then
+          # Changes
           git add -A
-          git diff HEAD --exit-code
-          if ($LASTEXITCODE -eq 0) {
-            echo "No changes, end..."
-          } else {
-            git config --global user.name "github-actions-[bot]"
-            git config --global user.email "frank3en@gamil.com"
-            git commit -m "Updated docs from commit $env:GITHUB_SHA on $env:GITHUB_REF"
-            git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}
-            git push origin main
-          }
+          git config --global user.name "github-actions-[bot]"
+          git config --global user.email "frank3en@gamil.com"
+          git commit -m "Updated docs from commit $env:GITHUB_SHA on $env:GITHUB_REF"
+          git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}
+          git push origin main
+          else
+          # No changes
+          fi
