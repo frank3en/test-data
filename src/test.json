@@ -1,0 +1,3042 @@
+[
+    {
+        "id": "IP01-001",
+        "name": "New User Logon Name Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-002",
+        "name": "New User Title Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-003",
+        "name": "New User Department Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-004",
+        "name": "Unusual Application Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-005",
+        "name": "Unusual Device Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-006",
+        "name": "Unusual Operating System Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-007",
+        "name": "Unusual IP Address Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-008",
+        "name": "Unusual Working Hour Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-009",
+        "name": "Unusual Working Day Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-010",
+        "name": "Unusual Work Location Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-011",
+        "name": "Multiple Unique Risk Types Detected",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-012",
+        "name": "Unusual Service Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-013",
+        "name": "Azure AD Roles Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-014",
+        "name": "Unusual Azure AD Audit Activity",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP01-017",
+        "name": "Union Router IP Address Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-001",
+        "name": "Rapid Account Creation and Deletion",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-002",
+        "name": "Rapid Account Escalation and Deletion",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-003",
+        "name": "Multiple Unsuccessful Password Reset Attempts",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-004",
+        "name": "Suspicious Password Change Frequency",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-005",
+        "name": "Azure AD Role Assignment Without PIM",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-006",
+        "name": "Azure AD PIM Role Settings Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-007",
+        "name": "Authentication Methods Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-008",
+        "name": "Privileged Account Permissions - User Added to Multiple Roles",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-009",
+        "name": "Privileged Account Permissions - User Removed from Multiple Roles",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-010",
+        "name": "PIM Alert Disabled",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-011",
+        "name": "BitLocker Key Retrieval",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-012",
+        "name": "Malicious OAuth App Request",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-013",
+        "name": "Abnormal Privilege Changes",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-014",
+        "name": "Suspicious Token Reactivated",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-015",
+        "name": "New User Activity - Windows Event Log",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD02-016",
+        "name": "Abnormal User Activity - Windows Event Log",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AC01-056",
+        "name": "Potential Impersonation Attempt Via Okta - Impossible Travel",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-018",
+        "name": "Potential Impersonation Attempt - Sudden Appearance",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-023",
+        "name": "Anomalous Sign In to App from Multiple Locations",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-024",
+        "name": "Anomalous Sign In Success Rate from Multiple IP Addresses for Same App",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-025",
+        "name": "Potential Brute Force Attack - Sensitive App Target",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-026",
+        "name": "Potential Distributed Password Crack Attack",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-027",
+        "name": "Disabled Account Attempted to Sign In to Multiple Apps",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-028",
+        "name": "Anomalous Sign In Attempts from IP Address Using Disabled Accounts",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-029",
+        "name": "Azure AD PowerShell Anomaly",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-030",
+        "name": "Azure AD Conditional Access Rule Bypass",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-031",
+        "name": "Potential Account Compromise - Explicit Multi-factor Authentication Denial",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-032",
+        "name": "Azure AD Privileged Group Modification Anomaly",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-033",
+        "name": "Mail.Read Permissions Granted to Application",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-034",
+        "name": "Azure AD Domain Federation Trust Settings Modification",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-035",
+        "name": "App Access Credential Newly Added or Modified",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-036",
+        "name": "Rare Application Consent",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-037",
+        "name": "Suspicious OAuth App Offline Access Granted",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-038",
+        "name": "Suspicious OAuth App Mimics O365 Attack Toolkit Permissions",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-039",
+        "name": "Service Principal Credentials Added Following Admin Consent",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-040",
+        "name": "Suspicious Application Consent Similar to PwnAuth Toolkit Granted",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-041",
+        "name": "Activity performed by terminated user",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-052",
+        "name": "Suspicious Audit Activities Indicate Lateral Movement",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-053",
+        "name": "Azure AD Sign In from High Risk IP Address",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-054",
+        "name": "Disabled Account Activity Detected",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-055",
+        "name": "Email Collection - Email Forwarding Rule",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-057",
+        "name": "Potential Impersonation Attempt Via Okta - Unexpected Appearance",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-059",
+        "name": "Potential Brute Force Attack Via Okta -Password Spraying",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-060",
+        "name": "Potential Impersonation Attempt Via Okta - Anomalous Sign-In Time",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-061",
+        "name": "Azure AD Audit Activity - Abnormal Account Management",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-062",
+        "name": "Azure AD Audit Activity - Abnormal Application Management",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-064",
+        "name": "Account Compromise Reported",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-065",
+        "name": "Fraud Reported",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-066",
+        "name": "Suspicious Windows Logon Attempts",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-067",
+        "name": "Suspicious RDP Connections",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-068",
+        "name": "Excessive Suspicious Windows Logon Attempts",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-069",
+        "name": "Suspicious Increase of RDP Connections From Account",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-070",
+        "name": "Risky Windows Events",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-071",
+        "name": "Potential Brute Force Attack - Multiple Unsuccessful Kerberos Authentication Attempts",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-074",
+        "name": "Suspicious Remote Connection From New Device",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "VD01-001",
+        "name": "OS Vulnerability Identified",
+        "factor": "Vulnerability detection"
+    },
+    {
+        "id": "VD01-002",
+        "name": "Application Vulnerability Identified",
+        "factor": "Vulnerability detection"
+    },
+    {
+        "id": "VD01-003",
+        "name": "OS Vulnerability Identified",
+        "factor": "Vulnerability detection"
+    },
+    {
+        "id": "VD01-004",
+        "name": "Application Vulnerability Identified",
+        "factor": "Vulnerability detection"
+    },
+    {
+        "id": "VD01-005",
+        "name": "Apache Log4j Vulnerability Identified via Endpoint Assessment",
+        "factor": "Vulnerability detection"
+    },
+    {
+        "id": "VD01-006",
+        "name": "Apache Log4j Vulnerability Detected via Sweeping Report",
+        "factor": "Vulnerability detection"
+    },
+    {
+        "id": "VD01-007",
+        "name": "Apache Log4j Vulnerability Identified via Targeted Attack Detection",
+        "factor": "Vulnerability detection"
+    },
+    {
+        "id": "SA02-001",
+        "name": "OneDrive Usage Anomaly",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "SA02-002",
+        "name": "SharePoint Usage Anomaly",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "SA02-003",
+        "name": "Outlook Usage Anomaly",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "SA02-004",
+        "name": "Teams Usage Anomaly",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD01-001",
+        "name": "Web Usage Anomaly - Unusual Behaviors",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD01-002",
+        "name": "Web Usage Anomaly - Unusual Requests",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD01-003",
+        "name": "Web Usage Anomaly - Unusual Payload",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD01-004",
+        "name": "Web Usage Anomaly - Unusual Times",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "SA04-001",
+        "name": "Abnormal Service Provider Identified",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "SA04-002",
+        "name": "Normal Service Provider Identified",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "WD03-001",
+        "name": "Potential Targeted Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "XD01-001",
+        "name": "Attack Attempt Detected",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "TD01-001",
+        "name": "Risky Website Access Detected",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD01-002",
+        "name": "Malicious Download from Website",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD01-003",
+        "name": "Suspected Botnet Infection",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD02-001",
+        "name": "Data Loss Prevention - Email Violation",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD02-002",
+        "name": "Company-wide Email Threat",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD02-003",
+        "name": "File Blocking - Email Violation",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD02-004",
+        "name": "Virtual Analyzer - Email Risk",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD02-005",
+        "name": "Risky Website Access Detected",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD02-006",
+        "name": "Malware Scanning - Email Threat",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD02-007",
+        "name": "Advanced Spam Protection - Policy Violation",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD05-001",
+        "name": "Malicious File Detection",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD05-002",
+        "name": "Risky Endpoint Access Detected",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD05-003",
+        "name": "ZTSA Rule Match - Private Access Control",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD05-004",
+        "name": "Risky Process Behavior Detected",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD03-001",
+        "name": "Mobile Device Security Violations",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD04-001",
+        "name": "Data Loss Prevention - Cloud App Violation",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD04-002",
+        "name": "File Blocking - Cloud App Violation",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD04-003",
+        "name": "Virtual Analyzer - Cloud App Risk",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD04-004",
+        "name": "Risky Website Access Detected",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD04-005",
+        "name": "Malware Scanning - Cloud App Threat",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD06-001",
+        "name": "Network Sensor - Security Risk Detection",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD06-002",
+        "name": "TippingPoint - Security Risk Detection",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "TD06-003",
+        "name": "Cloud One Workload Security - Security Risk Detection",
+        "factor": "Threat detection"
+    },
+    {
+        "id": "WD01-002",
+        "name": "Potential Chopper Webshell Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-003",
+        "name": "IIS Worker Process Spawning Suspicious Powershell Command",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-004",
+        "name": "Suspicious Activities after Exploitation of Web Application Vulnerability",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-005",
+        "name": "Possible Sudo Vi Command Abuse",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-010",
+        "name": "Early Indicator of Being Targeted by UNC2452 via Hostname",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-011",
+        "name": "Possible Disabling of Antivirus Software",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-012",
+        "name": "Suspicious SMB Connection Initiated",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-013",
+        "name": "Network Discovery",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-014",
+        "name": "Early Indicator of Egregor Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-015",
+        "name": "Early Indicator of Ryuk Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-017",
+        "name": "Early Indicator of DoppelPaymer Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-019",
+        "name": "Cryptocurrency Mining Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-020",
+        "name": "Decoy File Download via DDE",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-021",
+        "name": "Root File System Deletion",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-022",
+        "name": "Cryptocurrency Mining Behavior",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-023",
+        "name": "File Download via MpCmdRun",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-024",
+        "name": "Windows Admin Share Access after Command Execution via WmiPrvSE",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-034",
+        "name": "Reverse Shell Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-037",
+        "name": "ADLOAD PUA Using Mitmproxy",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-038",
+        "name": "Cryptocurrency Mining Network Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-039",
+        "name": "Cryptocurrency Mining Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-040",
+        "name": "Persistence via Powershell Profile Path",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-041",
+        "name": "Early Indicator of Sunburst/Solorigate Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-043",
+        "name": "Repetitive Web Reputation Services Detection of a Non-Browser Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-044",
+        "name": "Backdoor Execution via Accessibility Features",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-045",
+        "name": "Anomalous Autostart Registry Entry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-047",
+        "name": "Cybercrime Malware Mitigation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-048",
+        "name": "Ransomware Lateral Movement Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-049",
+        "name": "Ransomware File",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-050",
+        "name": "Possible Brute Force Attempts",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-051",
+        "name": "Possible Sensitive Information Exfiltration",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-052",
+        "name": "Executable Files Masquerading as Non-Executables",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-053",
+        "name": "Termination of Processes Used for Exfiltration",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-054",
+        "name": "Hidden Application Window",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-055",
+        "name": "Multiple Unsuccessful Logon Attempts",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-056",
+        "name": "Obtain Clipboard Data or Screenshot",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-057",
+        "name": "Process Creation of Kerberoasting via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-058",
+        "name": "Possible Sandbox Evasion",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-059",
+        "name": "Potential Command and Control Connection via Finger Protocol",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-060",
+        "name": "Downloading of Suspicious Executable File via Microsoft Office Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-064",
+        "name": "Unknown Threat Detection via Predictive Machine Learning",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-065",
+        "name": "Suspicious Connections from Metasploit Payload",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-066",
+        "name": "Unknown Threat Detection and Mitigation via Predictive Machine Learning",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-067",
+        "name": "Possible Kubernetes Discovery and Container Escape Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-070",
+        "name": "Successful SSH Brute Force Attempt",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-072",
+        "name": "File Detections in Windows Directory - Blocked",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-073",
+        "name": "Screen Capture",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-074",
+        "name": "DNS Tunneling",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-076",
+        "name": "Process Injection after Suspicious Web Access",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-080",
+        "name": "Possible DLL Order Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-081",
+        "name": "Possible Malware Persistence in Registry via Scheduled Tasks",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-082",
+        "name": "Possible Right-to-Left Override",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-083",
+        "name": "Possible Alternate Data Stream Abuse",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-085",
+        "name": "Possible Web Service Abuse",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-086",
+        "name": "Possible Insecure Unix Commands",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-087",
+        "name": "Possible Reverse Shell Execution via GTFOBins",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-088",
+        "name": "Possible Setuid and Setgid Command Abuse",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-089",
+        "name": "Rare Noteworthy PE File Creation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-090",
+        "name": "Deletion Of System And Audit Logs",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-091",
+        "name": "Service Persistence Installation and Timestomping",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-095",
+        "name": "Reptile Rootkit Entry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-096",
+        "name": "Network Sniffing",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-098",
+        "name": "File and Privilege Discovery in Unix",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-099",
+        "name": "Kernel Module Loading via Insmod",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-100",
+        "name": "APT Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-101",
+        "name": "Apache Struts Vulnerability Exploitation and File Download",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-102",
+        "name": "NGioweb Botnet CnC Web Communication",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-103",
+        "name": "Compressed Archive Creation via PowerShell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-105",
+        "name": "Privilege Escalation via UAC Bypass",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-106",
+        "name": "Remote Payload Execution via Cron Job",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-107",
+        "name": "Creation of Suspicious File with Double Extensions",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-108",
+        "name": "Ransomware GonnaCry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-109",
+        "name": "Suspicious Installation and Persistence from MS Office Applications",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-111",
+        "name": "Suspicious Execution of Windows Built-in System Tools",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-112",
+        "name": "Script Execution After Initial Access via Browser",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-113",
+        "name": "Connection to Low-Activity Website via PowerShell Script",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-114",
+        "name": "WMI Command Leading to Process Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-115",
+        "name": "Suspicious Script Execution via Normal Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-116",
+        "name": "Suspicious XSL/XML execution via MSXSL",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-117",
+        "name": "Cybercrime Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-118",
+        "name": "Logon Script in UserInitMprLogonScript Registry Entry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-120",
+        "name": "Suspicious File Attachment",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-121",
+        "name": "[Threat Hunting] Suspicious WMI Executing Local Or Remote Process",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-122",
+        "name": "Suspicious DLL Execution via Normal Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-123",
+        "name": "Hacking Tool Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-124",
+        "name": "[Threat Hunting] Suspicious script in scheduled task",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-125",
+        "name": "Kernel Module Loading via Modprobe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-126",
+        "name": "Execution of A Suspicious Renamed Legitimate File",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-127",
+        "name": "File Detections in Windows Directory",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-128",
+        "name": "Suspicious Deletion of Volume Shadow Copy",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-129",
+        "name": "Suspicious Script Execution by Mshta",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-130",
+        "name": "[Threat Hunting] BITSAdmin Job Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-131",
+        "name": "MS Office Application Leveraging HTA Handler",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-132",
+        "name": "Suspicious Script Execution via LNK File with Double Extensions",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-133",
+        "name": "Indirect Execution of Commands",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-134",
+        "name": "TOR Network Traffic Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-135",
+        "name": "Suspicious Command and Control Connection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-137",
+        "name": "Suspicious Command Execution On Remote Systems",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-138",
+        "name": "Possible APT Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-139",
+        "name": "Suspicious Web Access After Suspicious Email",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-142",
+        "name": "Execution of Suspicious Commands via CMSTP",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-143",
+        "name": "Suspicious CMSTP Command in Autorun Registry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-144",
+        "name": "File Deobfuscation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-147",
+        "name": "Loading of Rare DLL via Scheduled Task",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-149",
+        "name": "Scheduled Task Invoking VBScript",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-150",
+        "name": "VBScript with Autorun",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-152",
+        "name": "Possible User-Clicked Spear Phishing Attack via Link",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-156",
+        "name": "File Exfiltration to Cloud Storage via Rclone Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-157",
+        "name": "Possible CobaltStrike-Beacon Process Injection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-158",
+        "name": "Lateral Movement of Cobalt Strike Beacon",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-159",
+        "name": "Possible CobaltStrike-Beacon Active Directory Database Dumping",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-160",
+        "name": "Possible Remote Scheduled Task Creation Abuse",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-162",
+        "name": "Apache Struts Vulnerability Exploitation and Command Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-165",
+        "name": "Early Indicators of Being Targeted by Ryuk Ransomware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-166",
+        "name": "Netlogon Privilege Elevation Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-167",
+        "name": "Powershell Sends Information to a C&C Server",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-169",
+        "name": "UAC Bypass via DLL Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-170",
+        "name": "Possible File Collection via Archiving",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-172",
+        "name": "Possible Fileless Cobalt Strike",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-174",
+        "name": "Early Indicator of Nefilim Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-176",
+        "name": "Potential Information Gathering",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-177",
+        "name": "Scheduled Task in Suspicious Directory",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-178",
+        "name": "Password Search in Files via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-184",
+        "name": "Password Search in Files via Command Prompt",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-185",
+        "name": "Suspicious Creation of Scheduled Task",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-194",
+        "name": "Account or Permission Groups Discovery via WmiPrvSE Command Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-196",
+        "name": "Local Administrator User Account Creation Post-Lsass Process Access",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-198",
+        "name": "Lsass Access via Suspicious Powershell Parameters",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-200",
+        "name": "Early Indicator of Clop Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "AP01-000",
+        "name": "Security Settings in Apex One Are Not Optimized",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AP04-000",
+        "name": "Security Settings in Network Sensor Are Not Optimized",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AP02-000",
+        "name": "Security Settings in Cloud One Workload Security Are Not Optimized",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AP03-000",
+        "name": "Security Settings in Cloud App Security Are Not Optimized",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "SC01-001",
+        "name": "Security Level of Managed Devices is Low",
+        "factor": ""
+    },
+    {
+        "id": "WD01-201",
+        "name": "Possible Hafnium Exchange Server Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-202",
+        "name": "Early Indicator of Conti Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-203",
+        "name": "Potential Darkside Ransomware Note",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-204",
+        "name": "Early Indicator of Darkside Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-205",
+        "name": "Suspicious WMI Event via MSBuild Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-208",
+        "name": "Execution Of AWS CLI Commands in an EC2 Instance",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-209",
+        "name": "[C1NS TESTING] Apache Struts RCE Vulnerability Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-210",
+        "name": "Suspicious Activities Observed After Exploiting Public Facing Web Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-211",
+        "name": "Kerberoasting via Dot Net AMSI",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-212",
+        "name": "Possible DCSync Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-213",
+        "name": "Unix Remote Code Execution via Powershell Invoke-WebRequest",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-214",
+        "name": "Suspicious DNS Query via MSBuild Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-215",
+        "name": "Suspicious Mounting of External Network Drive via WMI",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-216",
+        "name": "NSLookup Execution via MSBuild",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-219",
+        "name": "System-Defined Event Logs Clearing via Wevtutil",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-220",
+        "name": "Initial Access and Command Execution via Curl",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-221",
+        "name": "Screen Capture and Keylogging via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-222",
+        "name": "ASREPRoasting via Rubeus Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-223",
+        "name": "Discovery Activities After New User Created via CLI in Serverless Workload",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-224",
+        "name": "ProxyLogon Microsoft Exchange Vulnerability Exploitation - Outbound Request",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-225",
+        "name": "ProxyLogon Microsoft Exchange Vulnerability Exploitation - Inbound Request",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-227",
+        "name": "Malicious Connection by APT Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-228",
+        "name": "[TESTING] Vulnerability Exploitation and Command Execution Correlated by Peer Host",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-229",
+        "name": "[TESTING] Vulnerability Exploitation and Command Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-230",
+        "name": "Disabling of Windows Recovery Feature",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-231",
+        "name": "Emond Launch Daemon Modification",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-232",
+        "name": "Account Domain Password Spraying via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-233",
+        "name": "Service Account Kerberoasting Attack via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-234",
+        "name": "Early Indicator of Being Targeted by UNC2452",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-236",
+        "name": "Suspicious SDB Installation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-237",
+        "name": "APT Network Traffic (Outbound Response)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-238",
+        "name": "APT Network Traffic Detection (Inbound Response)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-239",
+        "name": "APT Network Traffic (Outbound Request)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-240",
+        "name": "APT Network Traffic (Inbound Request)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-241",
+        "name": "Apache Solr ConfigSets CVE-2020-13957 Remote Code Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-244",
+        "name": "Possible CVE-2019-9546 Exploitation - Privilege Escalation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-245",
+        "name": "Ransomware Detection (Real-time Scan)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-246",
+        "name": "Ransomware Detection (Non-real Time Scan)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-247",
+        "name": "Suspicious QUser Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-248",
+        "name": "Misnamed PSExec",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-249",
+        "name": "Network Analytics - Threat Correlation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-250",
+        "name": "Possible PrintNightmare Microsoft Windows Print Spooler Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-251",
+        "name": "UAC Bypass with ComputerDefaults via PowerShell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-252",
+        "name": "Remote WMI Execution via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-253",
+        "name": "Possible Microsoft Exchange Server Remote Code Execution (CVE-2020-17083)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-254",
+        "name": "BloodHound Ingestor Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-256",
+        "name": "NTLM Authentication Used in LDAP BindRequest",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-257",
+        "name": "SharpHound Collected Files",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-258",
+        "name": "RotaJakiro Backdoor",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-259",
+        "name": "Suspicious Attempted Access to Active Directory and Mounting of External Network Drive",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-260",
+        "name": "Microsoft MS17-010 SMB Remote Code Execution Vulnerability",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-261",
+        "name": "Sodinokibi Side Loading and Disabling of Windows Defender",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-264",
+        "name": "Potential SQL Server Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-267",
+        "name": "Cracking Kerberos Service Tickets via Rubeus",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-268",
+        "name": "UAC Bypass via DismCore DLL - Search Order Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-269",
+        "name": "Possible WaterBear Persistence Mechanism Installation via MTxOCI",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-271",
+        "name": "Possible PrintNightmare Exploitation Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-272",
+        "name": "Early Indicator of REvil Ransomware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-273",
+        "name": "Possible HiveNightmare Credential Access",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-274",
+        "name": "Possible Suspicious Connection to OneDrive URLs via Net.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-275",
+        "name": "Suspicious Powershell Command via Oracle Weblogic Exploit",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-276",
+        "name": "Possible Archived Data Collection via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-277",
+        "name": "Suspicious Remote COM Server Creation and Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-278",
+        "name": "Copying of Private SSH Keys via Find and Rsync",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-279",
+        "name": "Ransomware Command and Control Communication Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-280",
+        "name": "Possible Archived Email Collection via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-281",
+        "name": "FoggyWeb Backdoor Indicators",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-282",
+        "name": "Possible Renamed TCPDump Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-283",
+        "name": "Data Exfiltration via DNSCat",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-284",
+        "name": "Ransomware Detection in Backup Location",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-285",
+        "name": "File Download via Nohup",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-286",
+        "name": "Suspicious DLL Side-Loading via Mstsc",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-287",
+        "name": "Unusual Process Execution Triggered by Accessibility Features",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-289",
+        "name": "Copying of Private SSH Keys via Find and CP",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-290",
+        "name": "Suspicious Powershell Commands Leading to File Drop/Download",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-291",
+        "name": "Early Indicator of Lockbit Ransomware Attack",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-292",
+        "name": "Password Extraction via Grep",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-293",
+        "name": "System Information Discovery via IIS Webshell Command",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-294",
+        "name": "Suspicious Execution of MSHTA via Browser Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-295",
+        "name": "Credential Exfiltration via DNS After SSH Logon",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-296",
+        "name": "Possible DevilsTongue Malware Infection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-297",
+        "name": "Behavior Monitoring Detection for Built-in Windows Tools",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-298",
+        "name": "Private SSH Key Discovery via Find Command",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-299",
+        "name": "Possible ProxyLogon Microsoft Exchange Vulnerability Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-300",
+        "name": "DLL Sideloading",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-301",
+        "name": "Possible LuminousMoth Malware Infection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-302",
+        "name": "Lateral Movement via SSH After Reading Password File",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-303",
+        "name": "Possible Zloader Infection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-304",
+        "name": "Internal Network Scanner",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-305",
+        "name": "Suspicious Download and Scheduled Task Creation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-306",
+        "name": "Possible MSTeams DLL Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-308",
+        "name": "Linux Run Control Scripts Modification Detected",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-309",
+        "name": "Possible Malware Dropped Using RCE On Vulnerable Wordpress Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-310",
+        "name": "Multiple File Creation in Uncommon Directory",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-311",
+        "name": "Lsass Memory Dumping via Werfault.exe after SilentProcessExit Registry Setting",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-312",
+        "name": "Possible Credential Dumping from Web Browsers",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-313",
+        "name": "Oracle WebLogic Server Remote Code Execution (CVE-2021-2394)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-314",
+        "name": "Atlassian Confluence Vulnerability Exploitation and Command Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-315",
+        "name": "Jenkins Extra Columns Plugin XSS",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-316",
+        "name": "Lateral Movement Through Pass The Hash Detected",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-317",
+        "name": "Execution of SharpHound Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-318",
+        "name": "Command-and-Control with Suspicious Network Activities",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-319",
+        "name": "Command Prompt File Masquerading as SETHC file",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-320",
+        "name": "Possible Mimikatz Tool Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-321",
+        "name": "Reverse Shell via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-322",
+        "name": "Executable Dropped via NetSupport Remote Administration Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-323",
+        "name": "Passwd or Shadow File Access",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-324",
+        "name": "SSH Private Key Access",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-325",
+        "name": "Suspicious Office File Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-326",
+        "name": "Possible Accessing Unix Shadow File",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-327",
+        "name": "Credential Access via Sensitive Unix Files",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-328",
+        "name": "Remote Code Execution Or Malware Dropped By Exploiting Critical Server Vulnerability",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-329",
+        "name": "Network Discovery and MSSQL Logon Attempt",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-330",
+        "name": "Uninstalls Assembly via Windows Utility Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-331",
+        "name": "Network Discovery and Exploit Attempt",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-332",
+        "name": "Possible Malware Execution from Email Attachment",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-333",
+        "name": "Docker REST API Abused To Steal DockerHub Or AWS Credentials",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-334",
+        "name": "Docker REST API Abused To Deliver Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-335",
+        "name": "Insecure Docker Daemon Configuration Observed",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-336",
+        "name": "MS Office Application Command Execution after Possible Spearphishing Attachment - V2",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-337",
+        "name": "Suspicious Activities Observed After Abuse Of Docker REST API",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-338",
+        "name": "Docker REST API Abused To Deliver Cryptocurrency Mining Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-339",
+        "name": "WeaveScope Launched After Docker REST API Abuse",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-340",
+        "name": "TAD POC Model",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-341",
+        "name": "Domain Trusts Discovery via Nltest",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-342",
+        "name": "Suspicious Encoded Powershell Command Execution via WMI",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-343",
+        "name": "MS Office Application Command Execution after Possible Spearphishing Attachment",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-344",
+        "name": "Potential NotPetya Infection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-345",
+        "name": "Potential Malicious Webshell Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-346",
+        "name": "Possible ICMP Backdoor via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-347",
+        "name": "Suspicious Command and Control Connection - Variant 2",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-348",
+        "name": "Apache Log4j Vulnerability Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-349",
+        "name": "Docker REST API Abused to Steal DockerHub or AWS Credentials",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-350",
+        "name": "Suspicious File Drop In User Profile Folder",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-351",
+        "name": "Possible CVE-2021-44228 OGNL Expression Exploit",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-352",
+        "name": "Potential Process Injection into System Executable",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-353",
+        "name": "Suspicious Activities Observed After Abuse of Docker REST API",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-354",
+        "name": "Multiple Lateral Movement Attempt via Exploit",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-355",
+        "name": "Docker REST API Abused to Deliver Cryptocurrency Mining Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-356",
+        "name": "Possible CVE-2021-44228 Apache Remote Code Execution Vulnerability",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-357",
+        "name": "Lsass Memory Dump via Process Explorer",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-358",
+        "name": "Possible Access Token Manipulation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-359",
+        "name": "Possible CVE-2021-44228 HTTP Header OGNL Expression Exploit",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-360",
+        "name": "Suspicious DLL Creation in OneDrive Folder",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-361",
+        "name": "Suspicious File Drop In Windows Folder",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-362",
+        "name": "Possible Restrict Java Bytecode File",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-363",
+        "name": "Multiple Lateral Movement Attempt via Network",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-364",
+        "name": "Disable Antivirus via Net Command",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-365",
+        "name": "Right-To-Left Override Filename Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-366",
+        "name": "Suspicious Execution Of VBS Via Scheduled Task",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-367",
+        "name": "Observed Vulnerability Exploitation And OutBound Connections To Cryptocurrency Mining Pool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-368",
+        "name": "Suspicious RegSvr32 Execution via DDE",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-369",
+        "name": "Ransom Note Detection (Real-time Scan)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-370",
+        "name": "Suspicious Component Object Model Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-371",
+        "name": "APT Malware via Simulation Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-372",
+        "name": "Apache Log4j Vulnerability Exploited To Deliver Malware",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-373",
+        "name": "Suspicious Download Dukes Malware Sample To Memory",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-374",
+        "name": "Wget Internal IP Address Proxy Configuration",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-375",
+        "name": "Suspicious Browser Internet Explorer Bookmark Discovery",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-376",
+        "name": "System Information Gathering via Regsvr32 Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-377",
+        "name": "Possible Remote Command Execution via Named Pipe Impersonation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-378",
+        "name": "BlackByte Ransom Note Creation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-379",
+        "name": "Suspicious Process Injection to Windows Executable",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-380",
+        "name": "Add Accounts In Domain Admin Group",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-381",
+        "name": "Execution via Scriptrunner",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-382",
+        "name": "Suspicious VBScript Command Execution via Rundll32",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-383",
+        "name": "Pass the Hash via Crackmapexec",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-384",
+        "name": "Password Guessing via John the Ripper",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-385",
+        "name": "List Active Directory Organizational Units via AdFind",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-386",
+        "name": "Alternate Data Streams (ADS) via Print Executable",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-387",
+        "name": "Execution via Vsjitdebugger",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-389",
+        "name": "Password Stealing from Group Policy",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-390",
+        "name": "List Password Policy via Adfind",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-391",
+        "name": "Possible Vulnerable LOG4J for CVE-2021-44228 File Compromise",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-392",
+        "name": "Lateral Movement Via Legitimate RDP Session Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-393",
+        "name": "Pubprn.vbs Signed Script Proxy Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-394",
+        "name": "Possible Memory Dumping via Sqldumper",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-395",
+        "name": "Password Spraying in Multiple Domain Users",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-396",
+        "name": "Persistence thru Port Monitors Registry via Reg.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-397",
+        "name": "PE File Execution via Tracker.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-398",
+        "name": "Identified Ransomware Traffic Detection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-399",
+        "name": "Pester Signed Script Proxy Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-400",
+        "name": "Credential Dumping via NPPSpy",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-401",
+        "name": "Phantom Dll Abuse via Dll Replacement",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-402",
+        "name": "Registry Modification To Hide File Extension Via Commandline",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-403",
+        "name": "Deobfuscation and Execution in Memory Stream via Powershell",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-404",
+        "name": "Potential Locky Ransomware Encryption",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-405",
+        "name": "List Active Directory Domain Controller Objects via AdFind",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-406",
+        "name": "Execution of Powerfun Reverse Shell Command",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-407",
+        "name": "Download Files via Ftp.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-408",
+        "name": "Repetitive Web Reputation Services Network Detection of a Non-Browser Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-409",
+        "name": "Execution via Rundll32 and URL.dll",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-410",
+        "name": "CHM File with Arbitrary Payload",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-411",
+        "name": "Possible Brute Force via WMIC",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-412",
+        "name": "Execution From Alternate Data Streams",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-413",
+        "name": "Suspicious File Masquerading as googleupdate in Temp Folder",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-414",
+        "name": "Possible Mapping, Accessing, and Removal of Network Shares",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-415",
+        "name": "Suspicious File Masquerading as Normal Windows Process Created by a Script",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-416",
+        "name": "Registry Modification To Store Logon Credential Via Commandline",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-417",
+        "name": "Malicious Base64 Encoded PowerShell Keywords via Command Line",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-418",
+        "name": "Removal of Windows Defender Definition Files",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-419",
+        "name": "Suspicious URL Path from Non-browser Application",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-420",
+        "name": "MSBuild Code Execution in CSProject via Cmd.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-421",
+        "name": "Searching of Valid SSH Commands",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-422",
+        "name": "Windows 10 Task Scheduler Exploit",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-423",
+        "name": "Powershell Executable Copied to a Suspicious Directory",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-424",
+        "name": "UAC Bypass Via DotNet DLL Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-425",
+        "name": "Potential User Discovery Via Quser",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-426",
+        "name": "Command Prompt History Collection via DosKey",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-427",
+        "name": "Decode Command via Renamed CertUtil",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-428",
+        "name": "Suspicious Installation of External Module For IIS",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-429",
+        "name": "Suspicious Internet Connection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-430",
+        "name": "Possible Clean Up of Evidence with fsutil",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-431",
+        "name": "Kubernetes Cluster Admin Key Dump via Windows",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-432",
+        "name": "Suspicious Powershell Command Download Execution via Service",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-433",
+        "name": "LSASS Access via Non-Systems File",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-434",
+        "name": "System Information Collection via PowerShell Command",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-435",
+        "name": "Possible Execution Of Office Macro Emotet Downloader",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-436",
+        "name": "CMD In A Suspicious Directory",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-437",
+        "name": "Possible WebShell Creation after Exploitation of Zoho ManageEngine Vulnerability",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-438",
+        "name": "Overwritten Service Binary",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-439",
+        "name": "Suspicious Execution of Print.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-440",
+        "name": "Suspicious Process Creation via PowerShell Detected Through Windows Event",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-441",
+        "name": "Disabling Windows Defender",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-442",
+        "name": "Registry Modification To Hide File Extension",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-443",
+        "name": "Suspicious Execution of LOLBAS via C sharp program",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-444",
+        "name": "Suspicious Kerberoasting Detected Through Windows Event",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-445",
+        "name": "Suspicious Tool Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-446",
+        "name": "Default PowerSploit Scheduled Tasks Persistence",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-447",
+        "name": "File in Startupfolder Registry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-448",
+        "name": "Deletion of a File in Temporary Folder",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-449",
+        "name": "Spear Phishing Email with Known Phishing Behaviors",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-450",
+        "name": "Log4j Vulnerability Scanning via Nmap",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-451",
+        "name": "Execution via SQL Stored Procedure",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-452",
+        "name": "Suspicious PowerShell Execution via Remote Mshta",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-453",
+        "name": "Possible RDP Session Hijacking",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-454",
+        "name": "Apache Log4j Exploitation Network",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-455",
+        "name": "Automated Collection of Documents via Forfiles",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-456",
+        "name": "Suspicious Network Connection with Web Services via Microsoft Office Applications",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-457",
+        "name": "Heavily-Obfuscated Powershell Command",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-458",
+        "name": "Copying of Locked Database Files Via Volume Shadow Copy",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-459",
+        "name": "DLL Side-Loading of Sspicli.dll",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-460",
+        "name": "Possible Uninstallation Of Sysmon",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-461",
+        "name": "System Information Discovery - Built-In Tools",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-462",
+        "name": "ADFS Dumping via ADFSDump",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-463",
+        "name": "Suspicious Proxy Execution via Signed App",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-464",
+        "name": "Dynamic Link Library Injection Via Registry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-465",
+        "name": "Suspicious ScreenConnect Remote Desktop Tool File",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-466",
+        "name": "Suspicious Downloading Files Via Desktopimgdownldr",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-467",
+        "name": "Suspicious Mimikatz Credential Dumping via PsExec",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-468",
+        "name": "Suspicious Creation of Domain Account via Net.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-469",
+        "name": "Suspicious Kerberos Pre-Auth Attack Via Kerbrute Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-470",
+        "name": "Possible Samba Vulnerability Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-471",
+        "name": "Common Malicious URL Path Request",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-472",
+        "name": "Suspicious Microsoft.Workflow.Compiler.exe Payload Execution",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-473",
+        "name": "Disabling of Data Execution Prevention (DEP)",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-474",
+        "name": "Creation of MS Office Document with Macro Code Autorun",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-475",
+        "name": "Script Execution via WMI Command-line",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-476",
+        "name": "USBFerry Known StartUp Routine",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-477",
+        "name": "Suspicious Putty Credential Enumeration via Registry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-478",
+        "name": "Kerberos Constrained Delegation Abuse via Rubeus Tool",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-479",
+        "name": "Office Test Registry Persistence via Reg.exe",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-480",
+        "name": "Execution of DAT file via Rundll32",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-481",
+        "name": "Suspicious NTDS Dump Creation Via NTDSUtil",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-482",
+        "name": "Possible CVE-2021-44142 Vulnerability Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-483",
+        "name": "Possible CVE-2021-4034 Vulnerability Exploitation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-484",
+        "name": "Suspicious JA3 Certificate in SSL Connection",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-485",
+        "name": "UAC Bypass via WINDIR Registry Environment Variable",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-486",
+        "name": "Suspicious Modification of Keyboard Layout to Russian",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-487",
+        "name": "Set Execute Attribute Immediately After Disabling Firewall And File Download",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-488",
+        "name": "Persistence Installation Via Distributed Transaction Coordinator Registry",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-489",
+        "name": "HTTP POST Exfiltration Simulation",
+        "factor": "XDR detection"
+    },
+    {
+        "id": "WD01-008",
+        "name": "Credential Dumping Via LaZagne",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-029",
+        "name": "Mail Activity Anomaly of AD Account via Sent Bulk of Phishing or Malicious Emails",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-046",
+        "name": "Credential Dumping via LSASS Secrets or SAM",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-079",
+        "name": "Possible Credential Dumping",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-097",
+        "name": "Suspicious Reverse Shell and Credential Access",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-163",
+        "name": "Possible Gathering of Credentials in Memory",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-164",
+        "name": "Credentials Enumeration in Registry",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-173",
+        "name": "Anomalous User Account Sign-In from Unknown Agent",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-175",
+        "name": "Anomalous User Account Sign-In After Repeated Unsuccessful Attempts from Same IP Address",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-182",
+        "name": "Credential Dumping via Comsvcs",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-188",
+        "name": "Possible Credential Dumping via Registry",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-189",
+        "name": "Credential Dumping via Hacking Tool",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-190",
+        "name": "Possible Credential Dumping via Ntdsutil",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-191",
+        "name": "Credential Dumping via Mimikatz",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-192",
+        "name": "Possible Credential Dumping via Legitimate Tool",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-193",
+        "name": "Credential Dumping via Windows Credential Editor",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-195",
+        "name": "Credential Dumping via Renamed ProcDump Tool",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-217",
+        "name": "Possible Lsass.exe Memory Dump File Exfiltration",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-270",
+        "name": "Demo - Credential Dumping via Registry",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-032",
+        "name": "Suspicious Phishing Attachment in Email from New Sender",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-025",
+        "name": "Possible Forged Sender with Urgent Intention",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-028",
+        "name": "Possible Forged Brand Attack via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-027",
+        "name": "Spearphishing Email Impersonating Financial Institute via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-018",
+        "name": "Internal Spear Phishing Email via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-030",
+        "name": "Spearphishing Email with Known Phishkit URL Template via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-155",
+        "name": "Spearphishing Email with Recent Phishkit URL Template via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-151",
+        "name": "Spear Phishing Email with Known Phishing Patterns via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-153",
+        "name": "Suspicious Email with Redirect Link Detected by Retro Scan",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-154",
+        "name": "Suspicious Email with Redirect Link Sent to High Profile User Detected by Retro Scan",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-077",
+        "name": "Spearphishing Attachment",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-031",
+        "name": "Spear Phishing Email Target High Profile User via Attachment",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-075",
+        "name": "Possible Forged Business Partner via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-033",
+        "name": "Possible Spear Phishing Attack via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-288",
+        "name": "Suspicious Attachment from New Account Shows Similarity to Other Verified Malicious Attachments Detected by Retro Scan",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "WD01-026",
+        "name": "Possible Spear Phishing Attack on High-profile User via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "SA01-001",
+        "name": "Risky Cloud App Access",
+        "factor": "Cloud app activity"
+    },
+    {
+        "id": "SA01-002",
+        "name": "Risky Mobile App Access",
+        "factor": "Cloud app activity"
+    },
+    {
+        "id": "AC02-001",
+        "name": "Leaked Account Identification",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-017",
+        "name": "Potential Impersonation Attempt - Impossible Travel",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-106",
+        "name": "Mail Activity Anomaly of AD Account via Sent Bulk of Phishing or Malicious Emails",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-107",
+        "name": "Anomalous User Account Sign-In from Unknown Agent",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-108",
+        "name": "Anomalous User Account Sign-In After Repeated Unsuccessful Attempts from Same IP Address",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-003",
+        "name": "Suspicious Phishing Attachment in Email From New Sender",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-004",
+        "name": "Possible Office365 Oauth Spear Phishing Attack via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-005",
+        "name": "Possible Forged Sender with Urgent Intention",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-006",
+        "name": "Possible Forged Brand Attack via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-007",
+        "name": "Suspicious Phishing Attachment",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-008",
+        "name": "Spearphishing Email Impersonating Financial Institute via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-009",
+        "name": "Suspicious Email with Domain Impersonation In HeaderFrom",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-010",
+        "name": "Internal Spear Phishing Email via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-011",
+        "name": "Spearphishing Email with Known Phishkit URL Template via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-012",
+        "name": "Spearphishing Email with Recent Phishkit URL Template via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-013",
+        "name": "Anomalous Bulk Email Sending Activity of Phishing or Malicious Emails",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-015",
+        "name": "Spear Phishing Email with Known Phishing Patterns via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-100",
+        "name": "Suspicious Email with Redirect Link Detected by Retro Scan",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-101",
+        "name": "Suspicious Email with Redirect Link Sent to High Profile User Detected by Retro Scan",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-102",
+        "name": "Spearphishing Attachment",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-103",
+        "name": "Spear Phishing Email Target High Profile User via Attachment",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-104",
+        "name": "Possible Forged Business Partner via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-105",
+        "name": "Possible Spear Phishing Attack via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-109",
+        "name": "Suspicious Attachment from New Account Shows Similarity to Other Verified Malicious Attachments Detected by Retro Scan",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-016",
+        "name": "Potential Brute Force Attack - Password Guessing",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-019",
+        "name": "Azure AD Identity Protection Risk Detection",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-021",
+        "name": "Potential Brute Force Attack -Password Spraying",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-022",
+        "name": "Anomalous Sign In from Suspicious IP Address",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-058",
+        "name": "Potential Brute Force Attack Via Okta - Password Guessing",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-001",
+        "name": "Risky user with anomalous email activity",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-002",
+        "name": "Possible Spear Phishing Attack on High-profile User via Link",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-014",
+        "name": "Possible Spear Phishing Attack on High-profile User via Attachment",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-072",
+        "name": "Possible Compromise of Multiple User Accounts",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "AC01-073",
+        "name": "Possible User Account Compromise",
+        "factor": "Account compromise"
+    },
+    {
+        "id": "IP02-001",
+        "name": "New Device Endpoint Name Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-002",
+        "name": "New Device Operating System Changed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-003",
+        "name": "Unusual Application Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-004",
+        "name": "Unusual User Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-005",
+        "name": "Unusual IP Address Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-006",
+        "name": "Unusual Working Hours Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-007",
+        "name": "Unusual Working Day Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-008",
+        "name": "Unusual Work Location Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-009",
+        "name": "Multiple Unique Risk Types Detected",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-010",
+        "name": "Unusual Service Access",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "IP02-013",
+        "name": "Unusual Internal IP Connection",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD03-001",
+        "name": "Unusual Service Installed",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD03-002",
+        "name": "Unusual Scheduled Task Created",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD03-003",
+        "name": "Unusual User Account Created",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD03-004",
+        "name": "Exploitable Changes to User Account",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD03-005",
+        "name": "Connection From Abnormal Source",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD03-006",
+        "name": "Abnormal Activity Increase In Kerberos Ticket-Granting Service",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "AD03-007",
+        "name": "Windows Usage Anomaly",
+        "factor": "Anomaly detection"
+    },
+    {
+        "id": "SC02-001",
+        "name": "Device Visibility is Low",
+        "factor": ""
+    }
+]

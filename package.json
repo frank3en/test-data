@@ -1,0 +1,20 @@
+{
+  "name": "test-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "translate": "node ./utils/translate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank3en/test-data.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frank3en/test-data/issues"
+  },
+  "homepage": "https://github.com/frank3en/test-data#readme"
+}
