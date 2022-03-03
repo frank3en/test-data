@@ -22,10 +22,6 @@ jobs:
   My_Test_Translation:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x, 16.x]
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
