@@ -22,16 +22,16 @@ jobs:
   My_Test_Translation:
     runs-on: ubuntu-latest
 
-     strategy:
-      matrix:
-        node-version: [12.x, 14.x, 16.x]
-      
-    steps:
-    - name: Use Node.js ${{ matrix.node-version }}
-    uses: actions/setup-node@v1
-    with:
-      node-version: ${{ matrix.node-version }}
+    strategy:
+    matrix:
+      node-version: [12.x, 14.x, 16.x]
 
-    - name: Translate
-      run: |
-        npm run translate
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Translate
+        run: |
+          npm run translate
