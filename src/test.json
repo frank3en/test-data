@@ -1,5 +1,10 @@
 [
     {
+        "id": "IP01-002",
+        "name": "New User Logon Name Changed",
+        "factor": "Anomaly detection"
+    },
+    {
         "id": "IP01-001",
         "name": "New User Logon Name Changed",
         "factor": "Anomaly detection"
